@@ -18,6 +18,7 @@ public class ReadOne
             Scanner fileIn = new Scanner(new File(fileName));
             
             /* Loop while the file still has lines.
+
              * .hasNext() looks to see if a line exists
              * but it doesn't read the line.
              */
